@@ -2,15 +2,6 @@ N-Vibe
 
 N-Vibe is a navigation-based iOS application that provides a seamless and intuitive user experience with various features, including route calculation, display, and creative UI design. Developed as part of a technical assessment for the N-Vibe iOS Developer position, this app leverages the latest iOS development practices and integrates powerful features to create a unique and engaging experience.
 
-Table of Contents
-
-Introduction
-Features
-Installation
-Usage
-Tech Stack
-Contributing
-
 Introduction
 
 N-Vibe is a Swift-based iOS app that integrates map navigation, route calculation, and a highly interactive interface. It is designed to allow users to plan their routes, view live location data, and seamlessly interact with the interface while providing an enjoyable experience. The project was built as a demonstration of technical skills, focusing on code structure, navigation, and user interface design.
