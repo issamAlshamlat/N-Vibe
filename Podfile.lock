@@ -1,0 +1,82 @@
+PODS:
+  - MapboxCommon (23.11.0)
+  - MapboxCoreMaps (10.19.1):
+    - MapboxCommon (~> 23.11)
+  - MapboxCoreNavigation (2.19.0):
+    - MapboxDirections (~> 2.14)
+    - MapboxNavigationNative (< 207.0.0, >= 206.0.1)
+  - MapboxDirections (2.14.0):
+    - Polyline (~> 5.0)
+    - Turf (~> 2.8.0)
+  - MapboxGeocoder.swift (0.15.0)
+  - MapboxMaps (10.19.0):
+    - MapboxCommon (= 23.11.0)
+    - MapboxCoreMaps (= 10.19.1)
+    - MapboxMobileEvents (= 2.0.0)
+    - Turf (= 2.8.0)
+  - MapboxMobileEvents (2.0.0)
+  - MapboxNavigation (2.19.0):
+    - MapboxCoreNavigation (= 2.19.0)
+    - MapboxMaps (~> 10.18)
+    - MapboxSpeech (~> 2.0)
+    - Solar-dev (~> 3.0)
+  - MapboxNavigationNative (206.1.0):
+    - MapboxCommon (~> 23.10)
+  - MapboxSearch (1.0.2):
+    - MapboxCommon (~> 23.6)
+  - MapboxSearchUI (1.0.2):
+    - MapboxSearch (< 2.0, >= 1.0.2)
+  - MapboxSpeech (2.1.1)
+  - Polyline (5.1.0)
+  - SnapKit (5.7.1)
+  - Solar-dev (3.0.1)
+  - Turf (2.8.0)
+
+DEPENDENCIES:
+  - MapboxDirections
+  - MapboxGeocoder.swift
+  - MapboxMaps
+  - MapboxNavigation (~> 2.16)
+  - MapboxSearchUI
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxCoreNavigation
+    - MapboxDirections
+    - MapboxGeocoder.swift
+    - MapboxMaps
+    - MapboxMobileEvents
+    - MapboxNavigation
+    - MapboxNavigationNative
+    - MapboxSearch
+    - MapboxSearchUI
+    - MapboxSpeech
+    - Polyline
+    - SnapKit
+    - Solar-dev
+    - Turf
+
+SPEC CHECKSUMS:
+  MapboxCommon: 119f3759f7dc9457f0695848108ab323eb643cb4
+  MapboxCoreMaps: ca17f67baced23f8c952166ac6314c35bad3f66c
+  MapboxCoreNavigation: 3be9990fae3ed732a101001746d0e3b4234ec023
+  MapboxDirections: 3d468327d3e2ac52ae1be2176004976580cf6fd9
+  MapboxGeocoder.swift: 730782e5f4324b7283a0f6c740c180f3086158e2
+  MapboxMaps: b7f29ec7c33f7dc6d2947c1148edce6db81db9a7
+  MapboxMobileEvents: d044b9edbe0ec7df60f6c2c9634fe9a7f449266b
+  MapboxNavigation: da9cf3d773ed5b0fa0fb388fccdaa117ee681f31
+  MapboxNavigationNative: ef4ef55f669336b689a8941388a4b65796d1337b
+  MapboxSearch: a4b17da88f981d4ff5b3721ec37cabe4e7ffc67a
+  MapboxSearchUI: e497a668e7153f8e46ec2dd9f98a27986ae9e06b
+  MapboxSpeech: cd25ef99c3a3d2e0da72620ff558276ea5991a77
+  Polyline: 2a1f29f87f8d9b7de868940f4f76deb8c678a5b1
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  Solar-dev: 4612dc9878b9fed2667d23b327f1d4e54e16e8d0
+  Turf: aa2ede4298009639d10db36aba1a7ebaad072a5e
+
+PODFILE CHECKSUM: 52fafef0bba35ab1fb917e40b25a4613bb97743b
+
+COCOAPODS: 1.15.2
